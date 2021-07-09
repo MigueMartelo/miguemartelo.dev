@@ -1,7 +1,9 @@
+import React from "react";
+
 function App() {
   return (
-    <div className='font-sans text-center'>
-      <h1 className="text-xl">MigueMartelo.Dev</h1>
+    <div>
+      <h1>MigueMartelo.Dev</h1>
     </div>
   );
 }
