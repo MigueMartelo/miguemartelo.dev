@@ -30,8 +30,9 @@ function App() {
           <VStack color="white" marginStart="0">
             <Text fontSize={["md", "lg", "2xl"]}>
               Based in Cartagena, Colombia.
-              <br />I am a Systems Engineer. I&apos;ve been focusing on frontend
-              for a little over five years, specifically JavaScript and React.
+              <br />I am a Systems Engineer. I&apos;ve been working on the
+              frontend for a little over five years, specifically in JavaScript
+              and React.
             </Text>
           </VStack>
         </Box>
