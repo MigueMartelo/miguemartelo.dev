@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { AppProps } from "next/app";
+import { ChakraProvider } from "@chakra-ui/react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -8,7 +9,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="shortcut icon" href="/favicon.svg" />
         <title>MigueMartelo.Dev</title>
       </Head>
-      <Component {...pageProps} />
+      <ChakraProvider>
+        <Component {...pageProps} />
+      </ChakraProvider>
     </>
   );
 }
