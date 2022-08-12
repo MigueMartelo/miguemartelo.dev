@@ -23,7 +23,7 @@ function App() {
             <Text fontSize={['md', 'lg', '2xl']}>
               Based in Cartagena, Colombia.
               <br />I am a Systems Engineer. I&apos;ve been working on the frontend for a little
-              over five years, specifically in JavaScript and React.
+              over five years, specifically in JavaScript, TypeScript, React and NextJS.
             </Text>
           </VStack>
         </Box>
