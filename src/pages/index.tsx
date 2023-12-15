@@ -1,6 +1,5 @@
 import { Box, Heading, HStack, Stack, Text, VStack, Link } from '@chakra-ui/react';
 import Image from 'next/image';
-import NextLink from 'next/link';
 
 function App() {
   return (
@@ -32,34 +31,30 @@ function App() {
         </Box>
       </Stack>
       <HStack color="yellow" alignSelf="center" pt="10" fontSize="15">
-        <NextLink href="https://www.linkedin.com/in/miguemartelo" passHref>
-          <Link>
-            <a target="_blank" rel="noopener noreferrer">
-              Linkedin
-            </a>
-          </Link>
-        </NextLink>
-        <NextLink href="https://twitter.com/MigueMartelo31" passHref>
-          <Link>
-            <a target="_blank" rel="noopener noreferrer">
-              Twitter
-            </a>
-          </Link>
-        </NextLink>
-        <NextLink href="https://github.com/miguemartelo" passHref>
-          <Link>
-            <a target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
-          </Link>
-        </NextLink>
-        <NextLink href="/curriculumMigueMartelo.pdf" passHref>
-          <Link>
-            <a target="_blank" rel="noopener noreferrer" download>
-              Curriculum
-            </a>
-          </Link>
-        </NextLink>
+        <Link>
+          <a
+            href="https://www.linkedin.com/in/miguemartelo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
+        </Link>
+        <Link>
+          <a href="https://twitter.com/MigueMartelo31" target="_blank" rel="noopener noreferrer">
+            Twitter
+          </a>
+        </Link>
+        <Link>
+          <a href="https://github.com/miguemartelo" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </Link>
+        <Link>
+          <a href="/curriculumMigueMartelo.pdf" target="_blank" rel="noopener noreferrer" download>
+            Curriculum
+          </a>
+        </Link>
       </HStack>
     </Stack>
   );
