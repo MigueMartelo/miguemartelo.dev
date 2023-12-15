@@ -1,7 +1,9 @@
-import { Box, Heading, HStack, Stack, Text, VStack, Link } from '@chakra-ui/react';
+'use client';
+
+import { Box, Heading, HStack, Stack, Text, VStack } from '@chakra-ui/react';
 import Image from 'next/image';
 
-function App() {
+function HomePage() {
   return (
     <Stack h="100vh" w="100%" bg="gray.900" p={['10', '20', '24']}>
       <Stack
@@ -31,33 +33,42 @@ function App() {
         </Box>
       </Stack>
       <HStack color="yellow" alignSelf="center" pt="10" fontSize="15">
-        <Link>
-          <a
-            href="https://www.linkedin.com/in/miguemartelo"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Linkedin
-          </a>
-        </Link>
-        <Link>
-          <a href="https://twitter.com/MigueMartelo31" target="_blank" rel="noopener noreferrer">
-            Twitter
-          </a>
-        </Link>
-        <Link>
-          <a href="https://github.com/miguemartelo" target="_blank" rel="noopener noreferrer">
-            GitHub
-          </a>
-        </Link>
-        <Link>
-          <a href="/curriculumMigueMartelo.pdf" target="_blank" rel="noopener noreferrer" download>
-            Curriculum
-          </a>
-        </Link>
+        <a
+          href="https://www.linkedin.com/in/miguemartelo"
+          target="_blank"
+          rel="noopener noreferrer"
+          suppressHydrationWarning
+        >
+          Linkedin
+        </a>
+        <a
+          href="https://twitter.com/MigueMartelo31"
+          target="_blank"
+          rel="noopener noreferrer"
+          suppressHydrationWarning
+        >
+          Twitter
+        </a>
+        <a
+          href="https://github.com/miguemartelo"
+          target="_blank"
+          rel="noopener noreferrer"
+          suppressHydrationWarning
+        >
+          GitHub
+        </a>
+        <a
+          href="/curriculumMigueMartelo.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          download
+          suppressHydrationWarning
+        >
+          Curriculum
+        </a>
       </HStack>
     </Stack>
   );
 }
 
-export default App;
+export default HomePage;
