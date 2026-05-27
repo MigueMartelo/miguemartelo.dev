@@ -16,19 +16,26 @@ function App() {
               Hi there 👋, I&apos;m Migue,
             </Heading>
             <Heading as="h2" size={['md', 'lg', 'xl']}>
-              Frontend Developer
+              Senior Fullstack Engineer
             </Heading>
           </VStack>
           <VStack color="white" marginStart="0">
             <Text fontSize={['md', 'lg', '2xl']}>
               Based in Cartagena, Colombia.
-              <br />I am a Systems Engineer. I&apos;ve been working on the frontend for a little
-              over five years, specifically in JavaScript, TypeScript, React and NextJS.
+              <br />
+              I'm a Systems Engineer who builds and ships full products across the stack — strong
+              roots in React, TypeScript, and Next.js, expanding into backend services, Node.js, and
+              cloud infrastructure (AWS).
             </Text>
           </VStack>
         </Box>
         <Box w={['100%', '40%']}>
-          <Image src="/images/frontend.png" alt="Frontend Developer" width={1000} height={1000} />
+          <Image
+            src="/images/frontend.png"
+            alt="Senior Fullstack Engineer"
+            width={1000}
+            height={1000}
+          />
         </Box>
       </Stack>
       <HStack color="yellow" alignSelf="center" pt="10" fontSize="15">
