@@ -23,7 +23,7 @@ function App() {
             <Text fontSize={['md', 'lg', '2xl']}>
               Based in Cartagena, Colombia.
               <br />
-              I'm a Systems Engineer who builds and ships full products across the stack — strong
+              I&apos;m a Systems Engineer who builds and ships full products across the stack — strong
               roots in React, TypeScript, and Next.js, expanding into backend services, Node.js, and
               cloud infrastructure (AWS).
             </Text>
